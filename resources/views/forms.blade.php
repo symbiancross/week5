@@ -46,7 +46,7 @@
 	  							<input type="checkbox" name="servant[]" value="archer" @if(isset($servant) && in_array('archer', $servant)) checked @endif>Archer
 	  						</label>
   						</div>
-						<div class="checkbox">
+						<div class="checkbox">     
 							<label>
 								<input type="checkbox" name="servant[]" value="lancer" @if(isset($servant) && in_array('lancer', $servant)) checked @endif>Lancer
 							</label>
